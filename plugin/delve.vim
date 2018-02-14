@@ -1,9 +1,5 @@
 " vim-delve - Delve debugger integration
 
-if !has('nvim') && !exists("g:loaded_vimshell")
-    echom "vim-delve depends on Shougo/vimshell when used in Vim"
-    finish
-endif
 
 "-------------------------------------------------------------------------------
 "                           Configuration options
